@@ -1,1 +1,1 @@
-# internProgram
+# internshipProgram
