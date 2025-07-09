@@ -8,7 +8,6 @@
     
     let changeStr = s;
 
-    // もしs.length / 2まで到達してもfalseが帰っていなかったらtrueを返す
     for(let i = 0; i < s.length / 2; i++) {
       if(changeStr.includes('()')) {
         changeStr = changeStr.replace('()', '');
@@ -34,6 +33,4 @@
 
   s = '({)}';
   console.log(isValid(s));
-
-  // 効率化を行う
 })();
